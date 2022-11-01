@@ -1,0 +1,9 @@
+Request - Response
+
+● Web is based completely on requests and responses
+   ○ Client makes requests
+   ○ Server sends responses
+● Basic requests: clicking on link / URL
+   ○ HTTP GET
+● More complex requests: form submissions
+   ○ HTTP POST
