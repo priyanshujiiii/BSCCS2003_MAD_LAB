@@ -1,1 +1,22 @@
+CRUD:
 
+Create:
+● Create a new entry
+● Must not already exist
+● Check within database to avoid conflicts
+● Mention mandatory vs optional fields (name, address, mobile number....)
+
+Read:
+● Get a list of students
+● Summarize number of students, age distribution, geographic locations
+● Plot histograms of marks
+
+Update:
+● Change of address
+● Update marks
+● Change start date of course
+
+Delete:
+● Remove graduated students
+● Delete mistaken entries
+● Unenroll student from course
