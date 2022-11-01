@@ -1,1 +1,6 @@
 
+● Actions: interaction between view and model
+● Controller: group actions together logically
+● API: complex set of capabilities of server
+● Interaction through HTTP requests
+● HTTP Verbs used to convey meanings
