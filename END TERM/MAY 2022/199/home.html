@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p><a href="{{url_for('HomePage')}}">Go back to the home page?</a></p>
+<h2>About page</h2>
+{% if condition %}
+<h3>You are landed on about page.</h3>
+      {% for user in users %}
+            <ul>
+                  <li>Username : {{user.user}},Age : {{user.age}}, Gender :
+                   {{user.gender}}, Score : {{user.score}}</li>
+            </ul>
+      {% endfor %}
+{% else %}
+     <h3>Please Go back.</h3>
+{% endif %}
+</body>
+</html>
